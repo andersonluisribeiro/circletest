@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 80
+var port = process.env.PORT || 8080;
 
 
 // respond with "hello world" when a GET request is made to the homepage
