@@ -7,7 +7,7 @@ var port = process.env.PORT || 8080;
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
   var a = 1;
-  var b = 2;
+  var b = 4;
   var resultado = new Calculadora().soma(a,b);
   res.send(`Se eu somar ${a} + ${b}, o resultado é ${resultado}`);
 })
